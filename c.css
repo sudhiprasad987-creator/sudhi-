@@ -1,0 +1,47 @@
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 24px;
+    background: linear-gradient(30deg, pink, white, pink);
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    font-family: Arial, sans-serif;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);
+}
+
+form label {
+    display: inline-flexbox;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #c792b3;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+form button,
+form input[type="submit"] {
+    background: #d84fa4;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.2s;
+    align-self: center;
+}
+
+form button:hover,
+form input[type="submit"]:hover {
+    background: #b3188c;
+}
