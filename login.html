@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <title>welcome to gays community,</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="c.css">
+
+    <style>
+        body {
+            background: linear-gradient(30deg, pink, white, pink);
+            min-height: 200vh;
+            max-width: 350vh;
+        }
+
+        header {
+            background-color: white;
+            color: black;
+            font-family: cursive;
+            font-size: 1em;
+            text-align: center;
+            margin: 0px;
+            padding: 1%;
+            scroll-padding: 50px;
+            scrollbar-track-color: azure;
+        }
+
+        nav {
+            background: black;
+            color: red;
+            padding: 20px;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            border-radius: 30px;
+        }
+
+        .c {
+
+            font-size: 2em;
+            margin: 3%;
+            padding: 3%;
+            border-radius: 30px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html#home">home |</a>
+        <a href="index.html#login">login |</a>
+        <a href="index.html#about">about |</a>
+        <a href="index.html#contact">contact</a>
+    </nav>
+    <header>
+
+        <h1>PERFECT RELATIONS FOR HOMOSEXUALS...</h1>
+        <H6>CO-POWERD BY ALL KERALA GAYS ASSOSIATION</H6>
+
+    </header>
+    <div>
+        <div class="c">
+            <h3 class="c">PARTNER DETAILS</h3>
+
+            <p>fill the detials below to find your perfect match</p>
+            <p id="res">Welcome, </p>
+            <script>
+                const username = localStorage.getItem('username') || 'Guest';
+                document.getElementById('res').textContent = `Welcome, ${username}`;
+
+
+            </script>
+
+        </div>
+
+        <form>
+            <label for="your preference">Your Preference:</label>
+            <select id="your preference" name="your preference">
+                <option value="trans women">trans women</option>
+                <option value="trans man">trans man</option>
+                <option value="just man">just man</option>
+            </select>
+            <label for="agepreference">Age Preference:</label>
+            <select id="agepreference" name="agepreference">
+                <option value="18-25">18-25</option>
+                <option value="26-35">26-35</option>
+                <option value="36-45">36-45</option>
+            </select>
+            <label for="state">state:</label>
+            <select id="state" name="state">
+                <option value="kerala">Kerala</option>
+                <option value="tamil nadu">Tamil Nadu</option>
+                <option value="karnataka">Karnataka</option>
+                <option value="andhra pradesh">Andhra Pradesh</option>
+                <option value="other">Other</option>
+
+            </select>
+            <label for="city">City:</label>
+            <select id="city" name="city">
+                <option value="kochi">Kochi</option>
+                <option value="trivandrum">Trivandrum</option>
+                <option value="calicut">Calicut</option>
+                <option value="madurai">Madurai</option>
+                <option value="bangalore">Bangalore</option>
+                <option value="hyderabad">Hyderabad</option>
+                <option value="other">Other</option>
+            </select>
+            <button type="submit" onclick="alert('Form submitted!')" formaction="preview.html">Submit</button>
+        </form>
+    </div>
+    <div
+        style="margin: 50px; background:red; padding:40px; border-radius:20px; color:white; width: fit-content ;box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);">
+        <h4 style="display: flex;text-decoration: underline;">Contact Information</h4>
+        <address>
+            Rejil PR<br />
+            All Kerala Gays Association<br />
+            Email: rejil@example.com<br />
+            Phone: +91 12345 67890
+        </address>
+    </div>
+    <footer
+        style="margin: 50px; background:rgb(0, 0, 0);text-align: center; padding:40px; border-radius:20px; color:white ;box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);">
+        <p>&copy; 2025 All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
