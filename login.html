@@ -10,7 +10,7 @@
         body {
             background: linear-gradient(30deg, pink, white, pink);
             min-height: 200vh;
-            max-width: 350vh;
+            width: auto;
         }
 
         header {
@@ -20,7 +20,7 @@
             font-size: 1em;
             text-align: center;
             margin: 0px;
-            padding: 1%;
+            padding: 3%;
             scroll-padding: 50px;
             scrollbar-track-color: azure;
         }
@@ -112,20 +112,29 @@
             <button type="submit" onclick="alert('Form submitted!')" formaction="preview.html">Submit</button>
         </form>
     </div>
-    <div
-        style="margin: 50px; background:red; padding:40px; border-radius:20px; color:white; width: fit-content ;box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);">
-        <h4 style="display: flex;text-decoration: underline;">Contact Information</h4>
-        <address>
-            Rejil PR<br />
-            All Kerala Gays Association<br />
-            Email: rejil@example.com<br />
-            Phone: +91 12345 67890
-        </address>
+    <hr>
+    <div id="contact" style="background : rgb(223, 209, 209); padding: 40px;">
+        <hr color="black">
+        <div
+            style="margin: 50px; background:red; padding:40px; border-radius:20px; color:white; width: fit-content ;box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);">
+            <h4 style="display: flex;text-decoration: underline;">Contact Information</h4>
+            <address>
+                Rejil PR<br />
+                All Kerala Gays Association<br />
+                Email: rejil@example.com<br />
+                Phone: +91 12345 67890
+            </address>
+        </div>
+        <footer
+            style="margin: 4%; background:rgb(0, 0, 0);text-align: center; padding:3%; border-radius:3%; color:white ;box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);">
+            <p>&copy; 2025 All Rights Reserved</p>
+        </footer>
+
+
+
     </div>
-    <footer
-        style="margin: 50px; background:rgb(0, 0, 0);text-align: center; padding:40px; border-radius:20px; color:white ;box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.5);">
-        <p>&copy; 2025 All Rights Reserved</p>
-    </footer>
+
+
 </body>
 
 </html>
